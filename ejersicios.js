@@ -73,8 +73,8 @@ document.write(`<table><tbody>`)
 
 for(let i=0;i<frecuencia.length;i++){
     document.write(`<tr>`)
-    if(frecuencia[i]===8){
-        frecuencia[i]="ganaste"
+    if(frecuencia[i]===undefined){
+        frecuencia[i]=0
     }
    document.write(`<td>${frecuencia[i]}</td>`)
    document.write(`</tr>`)
